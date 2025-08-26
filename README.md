@@ -38,6 +38,11 @@ Change these settings in config.json for your server:
   - Install Fs            `npm install fs `
   - Run the app           `npm start `
   - For using the chat or commands do this `/ or raw text when the app fully started `
+## Features
+- Rotate:  `/rotate to rotate`
+- Swing:  `/swing to swing`
+- Random walk: `/randomwalk` to random walk
+- Jump: `/jump` to jump
 
 ## READ THIS
 - Using AFK clinets is not permitted in Minecraft's EULA
