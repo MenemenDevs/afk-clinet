@@ -1,0 +1,13 @@
+{
+  "name": "afk-client",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Minimal Microsoft-auth AFK console client for Minecraft",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.32.0"
+  }
+}

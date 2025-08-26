@@ -1,0 +1,24 @@
+{
+  "server": {
+    "host": "donutsmp.net",
+    "port": 25565,
+    "version": "1.20.1"
+  },
+  "account": {
+    "auth": "microsoft",
+    "username": "roblox17kelys4on@gmail.com"
+  },
+  "antiAfk": {
+    "intervalMs": 45000,
+    "rotate": true,
+    "jump": true,
+    "swing": true,
+    "chatPing": false,
+    "randomWalk": true
+  },
+  "reconnect": {
+    "enabled": true,
+    "minDelayMs": 5000,
+    "maxDelayMs": 60000
+  }
+}
