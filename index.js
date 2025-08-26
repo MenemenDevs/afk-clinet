@@ -35,7 +35,7 @@ function makeBot() {
   });
 }
 
-// ---- AFK mod ----
+// ---- AFK mode ----
 function startAfk() {
   if (!bot) return;
 
@@ -47,7 +47,7 @@ function startAfk() {
   }, config.antiAfk.intervalMs);
 }
 
-// ---- Terminalden komut gönderme ----
+// ---- Send text over terminal ----
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
@@ -59,4 +59,5 @@ rl.on('line', (input) => {
 });
 
 makeBot();
+
 
