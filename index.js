@@ -18,12 +18,12 @@ function makeBot() {
   globalThis.currentBot = bot;
 
   bot.on('login', () => {
-    console.log('Bot sunucuya bağlandı! AFK mod aktif.');
+    console.log('Bot connected to server. Afk mode is on.');
     startAfk();
   });
 
   bot.on('end', () => {
-    console.log('[END] Bağlantı koptu. Yeniden bağlanılıyor...');
+    console.log('[END] Connection lost. Reconnecting ...');
     if (config.reconnect.enabled) {
       const delay = Math.floor(Math.random() * (config.reconnect.maxDelayMs - config.reconnect.minDelayMs) + config.reconnect.minDelayMs);
       setTimeout(makeBot, delay);
@@ -59,3 +59,4 @@ rl.on('line', (input) => {
 });
 
 makeBot();
+
