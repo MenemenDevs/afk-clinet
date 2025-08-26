@@ -36,6 +36,7 @@ Change these settings in config.json for your server:
   - Install readline      `npm install redline `
   - Install Fs            `npm install fs `
   - Run the app           `npm start `
+  - For using the chat or commands do this `/ or raw text when the app fully started `
 
 ## READ THIS
 - Using AFK clinets is not permitted in Minecraft's EULA
