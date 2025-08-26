@@ -1,5 +1,6 @@
 # Minecraft Java AFK-CLINET
 # AFK Minecraft Client
+# No password needed
 
 A minimal Node.js AFK bot for Minecraft. Supports Microsoft premium login and can automatically perform AFK actions on the server. You can also send chat messages or server commands directly from the terminal.
 
