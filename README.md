@@ -45,8 +45,8 @@ Change these settings in config.json for your server:
 - Jump: `/jump` to jump
 ## Problems/Solutions
 - Cant write more than 1 command:
-  Write something and delete it
--I dont know anymore problems.
+- Write something and delete it
+- I dont know anymore problems.
 ## READ THIS
 - Using AFK clinets is not permitted in Minecraft's EULA
 - This is for for educational purposes only
